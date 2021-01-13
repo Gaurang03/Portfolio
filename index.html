@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title style="font-family:Times New Roman;">Project for Progate</title>
 </head>
+<!-- Including google fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,22 +24,24 @@
         background-attachment: fixed;
         
     }
-    .left{
+    /* styliing left part of navigation bar */
+     .left{                        
     display:inline-block;
     
     position:absolute;
     left:50px;
     top:20px;
     }
+    /* styliing center of navigation bar */
     .centre{
     display:block;
     width:33%;
     margin:20px auto;
     
     }
+    /* styling right side of navigation bar */
     .right{
-        display:inline-block;
-   
+     display:inline-block;
     position:absolute;
     right:34px;
     top:20px;}
@@ -57,6 +60,7 @@
         padding: 34px 15px;
         font-family: 'Baloo Bhai 2', cursive;
      }
+     /* Styling navigtion bar on hover */
      .navigation li a:hover,.navigation li a.active{
         text-decoration: underline;
         color:antiquewhite
@@ -82,7 +86,7 @@
          cursor: pointer;
          color: aqua;
      }
-     .contain{
+     .project{
          border:2px solid white ;
          margin:  40px auto;
          padding:40px 10px;
@@ -105,7 +109,7 @@
          height:483px;
          width:372px;
      }
-     .contain h1{
+     .project h1{
          float: right;
          font-size: 50px;
          font-family: 'Sedgwick Ave Display', cursive;
@@ -126,7 +130,7 @@
         font-family: 'Aladin', cursive;
         font-size: 32px;
      }
-     .contain h1{
+     .project h1{
          padding-right: 20px;
      }
      #interest{
@@ -234,11 +238,13 @@ width:30px;
 height:30px;}
 </style> 
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="left">
         <img src="img/logo.png" alt="logo">
         <div>Gaurang</div>
         </div>
+        <!-- navigation bar -->
         <div class="centre">
             <ul class="navigation">
                 <li><a href="#home" class="active">Home</a></li>
@@ -247,14 +253,17 @@ height:30px;}
                 <li><a href="#foote">Follow</a></li>
             </ul>
         </div>
+        <!-- email button -->
         <div class="right">
-         <!-- <button class="btn" id="call">Call me</button> -->
+         
          <button class="btn" id="mail"><a href="mailto:gaurangagrawal10@gmail.com">Email me</a></button>
         </div>
     </header>
+    <!-- Header ends -->
     <div id=home>
+        <!-- My small introduction and about block -->
         <p id="welcome">Welcome Talented Minds</p>
-        <div class="contain">
+        <div class="project">
             <ul class="intro">
             <li><img src="img/gaurang.jpg" class="picture"></li>     
                <li class="picture" id="about">
@@ -265,6 +274,9 @@ height:30px;}
                <h1>Gaurang Agrawal</h1>
         </div>
     </div>
+    <!-- about block ends -->
+
+    <!-- interests block -->
    <div id="interest">
     <p>
         My interest revolves around discovering new things.I like to learn new things whether it is coputer related stuff like web devlopmennt,
@@ -273,6 +285,9 @@ height:30px;}
         am always ready to set my goals and work hard to pursue it.
     </p>
    </div>
+   <!-- interest block ends -->
+
+   <!-- my certifications -->
 <div class="Certifications" id="certify">
 <div id="mine">My Certifications</div>
     
@@ -300,6 +315,9 @@ height:30px;}
 
     <img src="img/css.jpg" class="cert">
 </div>
+
+<!-- footer  -->
+
 <div class="footer" id="foote" >
 <div class="foot">
     <h1 style="padding-left: 60px;">My Strategy</h1>
@@ -315,6 +333,7 @@ height:30px;}
 </form>
 
 </div>
+<!-- Links for following me -->
 <div class="foot" id="follow">
     <p> Follow me</p>
 <a href="https://www.linkedin.com/in/gaurang-agrawal-9728b51ba">

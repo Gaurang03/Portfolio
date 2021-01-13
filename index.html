@@ -26,7 +26,6 @@
     /* styliing left part of navigation bar */
      .left{                        
     display:inline-block;
-    
     position:absolute;
     left:50px;
     top:20px;
@@ -36,12 +35,10 @@
     display:block;
     width:33%;
     margin:20px auto;
-    
     }
-    /* styling right side of navigation bar */
-    .right{
-     display:inline-block;
-    position:absolute;
+   .right{
+       display:inline-block;
+       position:absolute;
     right:34px;
     top:20px;}
      .navigation{
@@ -59,13 +56,10 @@
         padding: 34px 15px;
         font-family: 'Baloo Bhai 2', cursive;
      }
-     /* Styling navigtion bar on hover */
-     .navigation li a:hover,.navigation li a.active{
-        text-decoration: underline;
-        color:antiquewhite
-     }
+     
+    
      .left img{
-         width: 80px;
+         width:80px;
      }
      .left div{
       text-align: center;
@@ -144,6 +138,10 @@
          word-spacing:6px ;
          
      }
+     .project-title a{
+         font-size:30px;
+         padding:20px 40px;
+     }
      #interest p{
       font-size: 40px;
       padding: 20px 10px;
@@ -218,18 +216,25 @@ font-size: 30px;
 text-align: center;
 background-color: gainsboro;
 }
-#linkedin:hover{
-width:30px;
-height:30px;}
+.navigation li a:hover{
+    text-decoration: underline;
+   color:antiquewhite;
+}
+#mail a{
+    text-decoration: none;
+color:black;
+}
 #facebook:hover{
 width:30px;
-height:30px;}
+height:30px;
+}
+#linkedin:hover{
+width:30px;
+height:30px;
+}
 #insta:hover{
 width:30px;
-height:30px;}
-#mail a{
- text-decoration:none;
- color:black;
+height:30px;
 }
 </style> 
 <body>
@@ -242,7 +247,7 @@ height:30px;}
         <!-- navigation bar -->
         <div class="centre">
             <ul class="navigation">
-                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#home" >About</a></li>
                 <li><a href="#interest">My Interests</a></li>
                 <li><a href="#certify">Certifications</a></li>
                 <li><a href="#foote">Follow</a></li>
@@ -259,6 +264,7 @@ height:30px;}
         <!-- My small introduction and about block -->
         <p id="welcome">Welcome Talented Minds</p>
         <div class="project">
+            <div class="project-title"><a href=""></a></div>
             <ul class="intro">
             <li><img src="img/gaurang.jpg" class="picture"></li>     
                <li class="picture" id="about">
@@ -277,7 +283,9 @@ height:30px;}
         My interest revolves around discovering new things.I like to learn new things whether it is coputer related stuff like web devlopmennt,
         android development,competitive coding,robotics etc or it exploriing the various mysteries of universe.Like Universe learning is boundryless 
         and can never be explored to the limit more than what we called a penny.Even we have known about our brain only less than 1%.Therefore I 
-        am always ready to set my goals and work hard to pursue it.
+        am always ready to set my goals and work hard to pursue it.<br>
+        <div class=project-title><a href="https://github.com/Gaurang03/Progate-Project">My Github project link</a></div>
+        
     </p>
    </div>
    <!-- interest block ends -->
@@ -330,6 +338,7 @@ height:30px;}
 <a href="https://www.instagram.com/invites/contact/?i=1xaaygl4gqyko&utm_content=jhe76af">
 <img src="img\insta.png" id="insta">
 </a>
+
 </div>
 </div>
 </body>

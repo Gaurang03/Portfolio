@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{background-image: url("img/tback.jpg");
+    background-size: cover;
+    }
+    td{
+        width:100px;
+        height:100px;
+    }
+    table{
+        margin:auto;
+        padding-bottom: 75px;
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 60px;
+        background-image:url("img/board1.png");
+    }
+    .column{
+     border-left: 5px solid rgb(230, 227, 213);
+     border-right: 5px solid rgb(230, 227, 213);
+    }
+    .row{
+     border-top: 5px solid rgb(230, 227, 213);
+     border-bottom: 5px solid rgb(230, 227, 213);
+    }
+    h1{
+        text-align: center;
+        font-size: 80px;
+         font-family:'Berkshire Swash', cursive; 
+    }
+</style>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div>
+    <table>
+        <tr>
+            <td></td>
+            <td class="column"></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td class="row"></td>
+            <td class="column row"></td>
+            <td class="row"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td class="column"></td>
+            <td></td>
+        </tr>
+    </table>
+    </div> 
+</body>
+</html>
